@@ -46,11 +46,9 @@ public struct TwilioAccessToken {
       payload["nbf"] = nbf
     }
 
-    let token = JWT.encode(
-      payload,
-      additionalHeaders: headers,
-      algorithm: .hs256(self.secret.data(using: .utf8)!)
-    )
+    let token = JWT.encode(claims: payload,
+                           algorithm: .hs256(self.secret.data(using: .utf8)!),
+                           headers: headers)
 
     return token
   }
