@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "JWT",
+        "repositoryURL": "https://github.com/bytethenoodle/JSONWebToken.swift",
+        "state": {
+          "branch": "master",
+          "revision": "ffb97712f9482801acafedc29840a6381126d703",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
