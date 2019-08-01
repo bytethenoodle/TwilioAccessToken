@@ -5,8 +5,8 @@
         "package": "JWT",
         "repositoryURL": "https://github.com/bytethenoodle/JSONWebToken.swift",
         "state": {
-          "branch": "master",
-          "revision": "ffb97712f9482801acafedc29840a6381126d703",
+          "branch": "bytethenoodle/iOS",
+          "revision": "fbcc20a195021782db5cfb43fef6d1f76ad64302",
           "version": null
         }
       }
